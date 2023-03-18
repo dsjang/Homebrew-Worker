@@ -137,6 +137,8 @@ function questions() {
 function handle_questions_input() {
     read answer
 
+    echo >&2 "answer: $answer"
+
     case "$answer" in
         "1")
             install_brew
