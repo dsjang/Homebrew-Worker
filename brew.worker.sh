@@ -131,11 +131,14 @@ function questions() {
 \033[1;34m[0]\033[0m 종료
 -----------------------------------------------------------------------"
 
-    handle_questions_input
+    # handle_questions_input
+    read answer
+    echo >&2 "answer: >$answer<"
+
 }
 
 function handle_questions_input() {
-    read -p answer
+    read answer
 
     echo >&2 "answer: >$answer<"
 
