@@ -131,7 +131,7 @@ function questions() {
 \033[1;34m[0]\033[0m 종료
 -----------------------------------------------------------------------"
 
-    # handle_questions_input
+    handle_questions_input
 }
 
 function handle_questions_input() {
