@@ -141,6 +141,8 @@ function handle_questions_input() {
 
     if [ -z "$answer" ]; then
         echo >&2 "empty"
+    else
+        echo >&2 "WTF"
     fi
 
     case "$answer" in
