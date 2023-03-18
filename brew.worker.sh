@@ -135,7 +135,7 @@ function questions() {
 }
 
 function handle_questions_input() {
-    read answer
+    read -p answer
 
     echo >&2 "answer: >$answer<"
 
