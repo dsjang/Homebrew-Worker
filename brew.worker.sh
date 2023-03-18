@@ -139,6 +139,10 @@ function handle_questions_input() {
 
     echo >&2 "answer: >$answer<"
 
+    if [ -z "$answer" ]; then
+        echo >&2 "empty"
+    fi
+
     case "$answer" in
         "1")
             install_brew
